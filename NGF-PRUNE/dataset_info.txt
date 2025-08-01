@@ -1,0 +1,3 @@
+Dataset Used: FashionMNIST.
+
+For more information, please see the datasheet contained in the paper appendix.

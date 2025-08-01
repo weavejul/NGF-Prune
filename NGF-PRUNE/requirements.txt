@@ -1,0 +1,11 @@
+torch
+torchvision
+numpy
+matplotlib
+tqdm
+seaborn
+pandas
+pygame
+gymnasium
+imageio
+scikit-learn
