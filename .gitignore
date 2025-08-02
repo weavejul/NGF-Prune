@@ -233,9 +233,6 @@ outputs/
 *.webm
 
 # Image files (if generated during training)
-# But keep assets directory
-!assets/
-!assets/**
 *.png
 *.jpg
 *.jpeg
@@ -243,6 +240,10 @@ outputs/
 *.bmp
 *.tiff
 *.svg
+
+# But keep assets directory (exceptions must come after the rules they override)
+!assets/
+!assets/**
 
 # Audio files
 *.wav
