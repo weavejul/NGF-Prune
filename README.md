@@ -1,6 +1,6 @@
 # NGF-Inspired Pruning for Efficient Neural Networks
 
-This project implements and evaluates a neural network pruning technique inspired by the biological phenomenon of neuronal apoptosis mediated by Neural Growth Factor (NGF). So far, I've tested basic supervised learning tasks (image classification) and reinforcement learning tasks (continuous control). Does it work? Sort of- it has interesting properties when compared to magnitude pruning, but is only "better" in a case-dependent fashion. Still a long-term WIP.
+This project (begun in 2024) implements and evaluates a neural network pruning technique inspired by the biological phenomenon of neuronal apoptosis mediated by Neural Growth Factor (NGF). So far, I've tested basic supervised learning tasks (image classification) and reinforcement learning tasks (continuous control). Does it work? Sort of- it has interesting properties when compared to magnitude pruning, but is only "better" in a case-dependent fashion. Still a long-term WIP.
 
 <div align="center">
   <img src="assets/ngf.jpg" alt="NGF Pruning" width="60%">
