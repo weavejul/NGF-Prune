@@ -233,6 +233,9 @@ outputs/
 *.webm
 
 # Image files (if generated during training)
+# But keep assets directory
+!assets/
+!assets/**
 *.png
 *.jpg
 *.jpeg
