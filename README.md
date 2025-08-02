@@ -2,6 +2,9 @@
 
 This project implements and evaluates a neural network pruning technique inspired by the biological phenomenon of neuronal apoptosis mediated by Neural Growth Factor (NGF). So far, I've tested basic supervised learning tasks (image classification) and reinforcement learning tasks (continuous control). Does it work? Sort of- it has interesting properties when compared to magnitude pruning, but is only "better" in a case-dependent fashion. Still a long-term WIP.
 
+<img src="assets/ngf.jpg" alt="NGF Pruning" style="display: block; margin: 0 auto; width: 60%;">
+
+
 ## Abstract
 
 The main idea is to emulate the biological process where neurons compete for limited resources (like NGF), and those failing to achieve sufficient activation during critical developmental periods are eliminated. This project applies this concept to artificial neural networks by monitoring and selectively pruning neurons exhibiting persistently low activation during a predetermined "critical period" in training. We also implement standard magnitude-based pruning for comparison. The effectiveness of these pruning methods is evaluated across different simple network architectures (MLPs, CNNs, Policy Networks) and tasks (MNIST, Fashion-MNIST, CartPole-v1), comparing performance against baseline (unpruned) models.
